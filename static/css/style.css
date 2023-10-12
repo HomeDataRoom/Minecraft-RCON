@@ -19,7 +19,7 @@ html, body {
 
 #consoleRow {
   position: absolute;
-  top: 83px;
+  top: 60px;
   left: 15px;
   right: 15px;
   bottom: 15px;
@@ -30,6 +30,7 @@ html, body {
   top: 15px;
   left: 15px;
   right: 15px;
+  text-align: center;
 }
 
 #consoleContent {
