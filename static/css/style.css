@@ -13,6 +13,8 @@ html, body {
 #content {
   height: 100%;
   position: relative;
+	background: linear-gradient(180deg, #b21a58 0%, #b2661a 100%);
+	filter: saturate(0.75);
 }
 
 #consoleRow {
