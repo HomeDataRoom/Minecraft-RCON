@@ -15,7 +15,7 @@ html, body {
   position: relative;
 }
 
-#consoleRow{
+#consoleRow {
   position: absolute;
   top: 83px;
   left: 15px;
@@ -23,14 +23,14 @@ html, body {
   bottom: 15px;
 }
 
-#alertMessage{
+#alertMessage {
   position: absolute;
   top: 15px;
   left: 15px;
   right: 15px;
 }
 
-#consoleContent{
+#consoleContent {
   margin: 0px;
   padding: 0px;
   position: absolute;
@@ -40,14 +40,14 @@ html, body {
   bottom: 49px;
 }
 
-.panel-heading{
+.panel-heading {
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
 }
 
-.panel-body{
+.panel-body {
   position: absolute;
   top: 43px;
   left: 0px;
@@ -56,20 +56,20 @@ html, body {
   overflow: auto;
 }
 
-.panel-body ul{
+.panel-body ul {
   margin-bottom: 0px;
 }
-.panel-body ul li .label{
+.panel-body ul li .label {
   margin-top: 2px;
   margin-right: -5px;
 }
 
-#consoleCommand{
+#consoleCommand {
   position: absolute;
   bottom: 0px;
 }
 
-#groupConsole{
+#groupConsole {
   overflow: auto;
 }
 
@@ -91,7 +91,7 @@ html, body {
 .ui-autocomplete > li {
   white-space: nowrap;
 }
-.ui-autocomplete > li div{
+.ui-autocomplete > li div {
   white-space: nowrap;
   padding: 2px 12px;
 }
@@ -104,7 +104,7 @@ html, body {
 .ui-helper-hidden-accessible {
   display: none;
 }
-#txtCommandResults > ul{
+#txtCommandResults > ul {
   max-height: 300px;
   overflow-y: auto;
   overflow-x: hidden;
