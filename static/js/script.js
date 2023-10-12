@@ -731,14 +731,11 @@ function logDanger(log){
 }
 
 function alertMsg(msg, cls){
-  var fadeOutTimeout = setTimeOut(fadeOut, 0);
   $("#alertMessage").scriptfadeOut("slow", function(){
     $("#alertMessage").attr("class", "alert alert-"+cls);
     $("#alertMessage").html(msg);
     $("#alertMessage").fadeIn("slow", function(){});
-    var fadeOutTimeout = setTimeout(fadeOut, 500);
     $("#alertMessage").fadeOut("slow", function(){});
-    var fadeOutTimeout = setTimeOut(fadeOut, 0);
   });
 }
 function alertSuccess(msg){
