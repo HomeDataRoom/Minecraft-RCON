@@ -735,6 +735,7 @@ function alertMsg(msg, cls){
     $("#alertMessage").attr("class", "alert alert-"+cls);
     $("#alertMessage").html(msg);
     $("#alertMessage").fadeIn("slow", function(){});
+    $("#alertMessage").fadeOut("slow", function(){});
   });
 }
 function alertSuccess(msg){
