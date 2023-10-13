@@ -1,5 +1,5 @@
 # Minecraft RCON
-A fork of a simple Minecraft RCON Web Console using PHP, Bootstrap and JavaScript. Currently in active development.
+A fork of a simple Minecraft RCON Web Console using PHP, Bootstrap and JavaScript by the HomeDataRoom team. Currently in active development.
 
 Inspired by [Minecraft-RCON-Console](https://github.com/ekaomk/Minecraft-RCON-Console) and using [PHP-Minecraft-Rcon](https://github.com/thedudeguy/PHP-Minecraft-Rcon).
 ## Configuration
@@ -8,14 +8,14 @@ Inspired by [Minecraft-RCON-Console](https://github.com/ekaomk/Minecraft-RCON-Co
 ```
 enable-rcon=true
 rcon.port=25575
-rcon.password=xtMJsVtmx0XypuId7jIb
+rcon.password=password
 ```
 2. Restart your Minecraft server.
-3. Download/Clone the Minecraft RCON Web Console files and edit the `config.php` file. Use the same rcon password and port that you used in `server.properties`:
+3. Download/clone the Minecraft RCON Web Console files and edit the `config.php` file. Use the same rcon password and port that you used in `server.properties`:
 ```
 $rconHost = "localhost";
 $rconPort = 25575;
-$rconPassword = "xtMJsVtmx0XypuId7jIb";
+$rconPassword = "password";
 ```
 
 ## Warnings
