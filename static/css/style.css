@@ -91,22 +91,28 @@ html, body {
   border: 1px solid #cccccc;
   border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px;
 }
+
 .ui-autocomplete > li {
   white-space: nowrap;
 }
+
 .ui-autocomplete > li div {
   white-space: nowrap;
   padding: 2px 12px;
 }
+
 .ui-autocomplete > li:hover {
   background-color: #eeeeee;
 }
+
 .ui-state-active {
   background-color: #dddddd;
 }
+
 .ui-helper-hidden-accessible {
   display: none;
 }
+
 #txtCommandResults > ul {
   max-height: 300px;
   overflow-y: auto;
