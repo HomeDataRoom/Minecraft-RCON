@@ -25,5 +25,3 @@ $rconPassword = "password";
  * [For NGinx users](https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html)
 * Use a strong custom RCON password for more security. Do not use the default one in `config.php`.
 * Set up your firewall in order to allow only the web server to communicate with the Minecraft server through the RCON port set, for more security.
-## Credits
-<a href="https://github.com/homedataroom/minecraft-rcon/graphs/contributors"><img src="https://contrib.rocks/image?repo=homedataroom/minecraft-rcon"></a>
